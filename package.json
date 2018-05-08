@@ -16,6 +16,14 @@
     "pretest": "ensure-node-env",
     "test": "eslint ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Skyscanner/bpk-env-info.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skyscanner/bpk-env-info/issues"
+  },
+  "homepage": "https://github.com/skyscanner/bpk-env-info",
   "author": "Hugo Tunius <hugo.tunius@skyscanner.net>",
   "license": "Apache-2.0",
   "devDependencies": {
