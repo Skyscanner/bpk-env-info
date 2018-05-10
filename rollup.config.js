@@ -10,7 +10,7 @@ export default {
     file: 'dist/index.js',
     format: 'cjs',
   },
-  external: ['child_process', 'util'],
+  external: ['child_process', 'util', 'chalk', 'semver'],
   plugins: [
     commonjs(),
     uglify({}, minify),

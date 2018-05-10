@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+Improved output with better structure, colours, and detailed information about the the package versions.
+
 # 0.0.2
 
 Make it actually work this time.
