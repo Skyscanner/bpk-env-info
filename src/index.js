@@ -8,7 +8,7 @@ const exec = promisify(require('child_process').exec);
 const BACKPACK_PACKAGE_REGEX = /^(bpk-|react-native-bpk-)/;
 
 const ls = async () => {
-  const { stdout } = await exec('npm ls --json', { maxBuffer: 10 * 1024 * 1024 });
+  const { stdout } = await exec('npm ls --json || true', { maxBuffer: 10 * 1024 * 1024 });
 
   return JSON.parse(stdout);
 };
